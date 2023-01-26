@@ -1,0 +1,20 @@
+.music-data {
+    background: url('C:\Users\Asus\Desktop\Placement_project_react\proj1\src\images\event2.png');
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+}
+ /* .music-data img{
+    object-fit: cover; 
+    width:100%;
+   
+} */
+
+.music-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding:50px 50px 50px 75px;
+    /* justify-content: space-between; */
+  
+    
+}
