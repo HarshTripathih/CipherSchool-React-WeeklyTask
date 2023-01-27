@@ -1,0 +1,103 @@
+.Card-box{
+    background-color: aqua;
+    display: flex;
+    width: 50vw;
+    margin-bottom: 5rem;
+}
+.left-part-postbox{
+    flex: 0.1;
+    display: flex;
+    
+}
+.image-box{
+    /* background-color: black; */
+    height: 10vh;
+    width: 7vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-box > img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.right-part-postbox{
+    flex: 0.9;
+    padding: 0px 0 5px 1px;
+    background-color: white;
+}
+.row1-box{
+    display: flex;
+    margin-top:-15px;
+}
+.row1-box-left{
+    flex:0.9;
+    display: flex;
+}
+.row1-box-right{
+    flex:0.1;
+    display: flex;
+}
+
+.row1-box .row1-box-left .Name-box > p{
+    font-size: 20px;
+    color: solid black;  
+}
+.row1-box .row1-box-left .userid-box > p{
+    font-size: 20px;
+     
+}
+
+.row1-box .row1-box-left .date-box > p{
+    font-size: 20px;
+     
+}
+.row1-box .row1-box-right .id-box > p{
+    font-size: 20px;
+}
+
+.row1-box .row1-box-left .dot{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1vw;
+    height: 9.5vh;
+}
+.row1-box .row1-box-left .dot > i{
+    font-size: 4px;
+    color: black;
+}
+.row1-box .row1-box-right .Three_dot_circle{    
+    border-radius: 100%;
+    transition: 0.5s;
+}
+.row1-box .row1-box-right .Three_dot_circle:hover{    
+    background-color: aqua;
+}
+.row1-box .row1-box-right .Three_dot_circle > p > i{
+    color:black;
+    
+    font-size: 30px;
+}
+.Card-box .right-part-postbox .title-box{
+    /* background-color: blue; */
+    margin-top: -2.5rem;
+    
+}
+.Card-box .right-part-postbox .title-box >p >b{
+    color:black;
+    font-size: 15px;
+    font-family: Serif;
+}
+.Card-box .right-part-postbox .body-box{
+    /* background-color: blue; */
+    margin-top: -0.8rem;
+    
+}
+.Card-box .right-part-postbox .body-box >p >b{
+
+    font-size: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
