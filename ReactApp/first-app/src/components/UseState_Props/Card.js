@@ -33,8 +33,8 @@ const Card = ({ name = "", profile = "", body = "", userid = "", id = "", date =
                     <div className="message-icon"><p><i class="fa-regular fa-message"></i></p></div>
                     <div className="retweet-icon"><p><i class="fa-solid fa-retweet"></i></p></div>
                     <div className="like-icon"><p><i class="fa-regular fa-heart"></i></p></div>
-                    <div className="impresion-icon"><i class="fa-solid fa-up-from-bracket"></i></div>
-                    <div className="upload-icon"><p><i class="fa-light fa-up-from-bracket"></i></p></div>
+                    <div className="impresion-icon"><p><i class="fa-sharp fa-solid fa-chart-simple"></i></p></div>
+                    <div className="upload-icon"><p><i class="fa-solid fa-upload"></i></p></div>
                 </div>
                  {/* <div className="id-box"><p>{id}</p></div> */}
             </div>
